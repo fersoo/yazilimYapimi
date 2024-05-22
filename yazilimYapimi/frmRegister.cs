@@ -28,6 +28,8 @@ namespace yazilimYapimi
         private void btnTemizle_Click(object sender, EventArgs e)
         {
             txtMail.Text = "";
+            txtisim.Text = "";
+            txtSoyisim.Text = "";
             txtKullaniciAd.Text = "";
             txtSifre.Text = "";
             txtMail.Focus();
