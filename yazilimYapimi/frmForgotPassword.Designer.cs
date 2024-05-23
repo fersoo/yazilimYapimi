@@ -34,7 +34,7 @@
             lblMerakEtme = new Label();
             lblLutfenMail = new Label();
             txtMail = new TextBox();
-            btnGonder = new Button();
+            btnKodGonder = new Button();
             lblGirisEkranınaDon = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBoxLogo).BeginInit();
             SuspendLayout();
@@ -43,7 +43,7 @@
             // 
             pictureBoxLogo.BackColor = Color.FromArgb(54, 84, 134);
             pictureBoxLogo.Image = (Image)resources.GetObject("pictureBoxLogo.Image");
-            pictureBoxLogo.Location = new Point(123, 70);
+            pictureBoxLogo.Location = new Point(120, 70);
             pictureBoxLogo.Name = "pictureBoxLogo";
             pictureBoxLogo.Size = new Size(105, 79);
             pictureBoxLogo.SizeMode = PictureBoxSizeMode.Zoom;
@@ -55,7 +55,7 @@
             lblSifreniMiUnuttun.AutoSize = true;
             lblSifreniMiUnuttun.Font = new Font("Segoe Print", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 162);
             lblSifreniMiUnuttun.ForeColor = Color.FromArgb(220, 242, 241);
-            lblSifreniMiUnuttun.Location = new Point(25, 152);
+            lblSifreniMiUnuttun.Location = new Point(22, 152);
             lblSifreniMiUnuttun.Name = "lblSifreniMiUnuttun";
             lblSifreniMiUnuttun.Size = new Size(301, 47);
             lblSifreniMiUnuttun.TabIndex = 31;
@@ -66,7 +66,7 @@
             lblMerakEtme.AutoSize = true;
             lblMerakEtme.Font = new Font("Segoe Print", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 162);
             lblMerakEtme.ForeColor = Color.FromArgb(220, 242, 241);
-            lblMerakEtme.Location = new Point(79, 191);
+            lblMerakEtme.Location = new Point(76, 191);
             lblMerakEtme.Name = "lblMerakEtme";
             lblMerakEtme.Size = new Size(193, 23);
             lblMerakEtme.TabIndex = 32;
@@ -78,7 +78,7 @@
             lblLutfenMail.AutoSize = true;
             lblLutfenMail.Font = new Font("Segoe Print", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 162);
             lblLutfenMail.ForeColor = Color.FromArgb(220, 242, 241);
-            lblLutfenMail.Location = new Point(91, 216);
+            lblLutfenMail.Location = new Point(88, 216);
             lblLutfenMail.Name = "lblLutfenMail";
             lblLutfenMail.Size = new Size(169, 23);
             lblLutfenMail.TabIndex = 33;
@@ -89,26 +89,26 @@
             txtMail.BackColor = Color.FromArgb(230, 231, 233);
             txtMail.BorderStyle = BorderStyle.None;
             txtMail.Font = new Font("Nirmala UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            txtMail.Location = new Point(53, 263);
+            txtMail.Location = new Point(50, 263);
             txtMail.Multiline = true;
             txtMail.Name = "txtMail";
             txtMail.Size = new Size(244, 28);
             txtMail.TabIndex = 0;
             // 
-            // btnGonder
+            // btnKodGonder
             // 
-            btnGonder.AutoSizeMode = AutoSizeMode.GrowAndShrink;
-            btnGonder.BackColor = Color.FromArgb(220, 242, 241);
-            btnGonder.Cursor = Cursors.Hand;
-            btnGonder.FlatAppearance.BorderSize = 0;
-            btnGonder.FlatStyle = FlatStyle.Flat;
-            btnGonder.Font = new Font("Nirmala UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnGonder.Location = new Point(123, 297);
-            btnGonder.Name = "btnGonder";
-            btnGonder.Size = new Size(105, 33);
-            btnGonder.TabIndex = 34;
-            btnGonder.Text = "GONDER";
-            btnGonder.UseVisualStyleBackColor = false;
+            btnKodGonder.AutoSizeMode = AutoSizeMode.GrowAndShrink;
+            btnKodGonder.BackColor = Color.FromArgb(220, 242, 241);
+            btnKodGonder.Cursor = Cursors.Hand;
+            btnKodGonder.FlatAppearance.BorderSize = 0;
+            btnKodGonder.FlatStyle = FlatStyle.Flat;
+            btnKodGonder.Font = new Font("Nirmala UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnKodGonder.Location = new Point(88, 297);
+            btnKodGonder.Name = "btnKodGonder";
+            btnKodGonder.Size = new Size(169, 33);
+            btnKodGonder.TabIndex = 34;
+            btnKodGonder.Text = "KOD GONDER";
+            btnKodGonder.UseVisualStyleBackColor = false;
             // 
             // lblGirisEkranınaDon
             // 
@@ -131,7 +131,7 @@
             BackColor = Color.FromArgb(54, 84, 134);
             ClientSize = new Size(352, 517);
             Controls.Add(lblGirisEkranınaDon);
-            Controls.Add(btnGonder);
+            Controls.Add(btnKodGonder);
             Controls.Add(txtMail);
             Controls.Add(lblLutfenMail);
             Controls.Add(lblMerakEtme);
@@ -142,7 +142,7 @@
             MaximizeBox = false;
             Name = "frmForgotPassword";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "SIFRE ALMA";
+            Text = "SIFREMI UNUTTUM";
             ((System.ComponentModel.ISupportInitialize)pictureBoxLogo).EndInit();
             ResumeLayout(false);
             PerformLayout();
@@ -155,7 +155,7 @@
         private Label lblMerakEtme;
         private Label lblLutfenMail;
         private TextBox txtMail;
-        private Button btnGonder;
+        private Button btnKodGonder;
         private Label lblGirisEkranınaDon;
     }
 }
