@@ -78,10 +78,10 @@
             txtMail.BackColor = Color.FromArgb(230, 231, 233);
             txtMail.BorderStyle = BorderStyle.None;
             txtMail.Font = new Font("Nirmala UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            txtMail.Location = new Point(80, 237);
+            txtMail.Location = new Point(61, 237);
             txtMail.Multiline = true;
             txtMail.Name = "txtMail";
-            txtMail.Size = new Size(216, 28);
+            txtMail.Size = new Size(257, 28);
             txtMail.TabIndex = 0;
             txtMail.UseSystemPasswordChar = true;
             // 
@@ -116,7 +116,7 @@
             checkSifreGoster.FlatAppearance.BorderSize = 0;
             checkSifreGoster.FlatStyle = FlatStyle.Flat;
             checkSifreGoster.ForeColor = Color.FromArgb(54, 84, 134);
-            checkSifreGoster.Location = new Point(302, 526);
+            checkSifreGoster.Location = new Point(25, 526);
             checkSifreGoster.Name = "checkSifreGoster";
             checkSifreGoster.Size = new Size(30, 28);
             checkSifreGoster.TabIndex = 27;
@@ -194,11 +194,11 @@
             txtSifre.BackColor = Color.FromArgb(230, 231, 233);
             txtSifre.BorderStyle = BorderStyle.None;
             txtSifre.Font = new Font("Nirmala UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            txtSifre.Location = new Point(80, 526);
+            txtSifre.Location = new Point(61, 526);
             txtSifre.Multiline = true;
             txtSifre.Name = "txtSifre";
             txtSifre.PasswordChar = '●';
-            txtSifre.Size = new Size(216, 28);
+            txtSifre.Size = new Size(257, 28);
             txtSifre.TabIndex = 4;
             // 
             // txtKullaniciAd
@@ -206,10 +206,10 @@
             txtKullaniciAd.BackColor = Color.FromArgb(230, 231, 233);
             txtKullaniciAd.BorderStyle = BorderStyle.None;
             txtKullaniciAd.Font = new Font("Nirmala UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            txtKullaniciAd.Location = new Point(80, 455);
+            txtKullaniciAd.Location = new Point(61, 455);
             txtKullaniciAd.Multiline = true;
             txtKullaniciAd.Name = "txtKullaniciAd";
-            txtKullaniciAd.Size = new Size(216, 28);
+            txtKullaniciAd.Size = new Size(257, 28);
             txtKullaniciAd.TabIndex = 3;
             // 
             // lblAd
@@ -228,10 +228,10 @@
             txtisim.BackColor = Color.FromArgb(230, 231, 233);
             txtisim.BorderStyle = BorderStyle.None;
             txtisim.Font = new Font("Nirmala UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            txtisim.Location = new Point(80, 309);
+            txtisim.Location = new Point(61, 309);
             txtisim.Multiline = true;
             txtisim.Name = "txtisim";
-            txtisim.Size = new Size(216, 28);
+            txtisim.Size = new Size(257, 28);
             txtisim.TabIndex = 1;
             // 
             // lblSoyad
@@ -250,10 +250,10 @@
             txtSoyisim.BackColor = Color.FromArgb(230, 231, 233);
             txtSoyisim.BorderStyle = BorderStyle.None;
             txtSoyisim.Font = new Font("Nirmala UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            txtSoyisim.Location = new Point(80, 381);
+            txtSoyisim.Location = new Point(61, 381);
             txtSoyisim.Multiline = true;
             txtSoyisim.Name = "txtSoyisim";
-            txtSoyisim.Size = new Size(216, 28);
+            txtSoyisim.Size = new Size(257, 28);
             txtSoyisim.TabIndex = 2;
             // 
             // frmRegister

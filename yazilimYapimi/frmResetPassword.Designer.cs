@@ -50,6 +50,7 @@
             lblGirisEkranınaDon.Size = new Size(186, 23);
             lblGirisEkranınaDon.TabIndex = 42;
             lblGirisEkranınaDon.Text = "Giris yapma ekranına dön";
+            lblGirisEkranınaDon.Click += lblGirisEkranınaDon_Click;
             // 
             // btnDegistir
             // 
@@ -65,6 +66,7 @@
             btnDegistir.TabIndex = 41;
             btnDegistir.Text = "DEGISTIR";
             btnDegistir.UseVisualStyleBackColor = false;
+            btnDegistir.Click += btnDegistir_Click;
             // 
             // txtSifre
             // 
