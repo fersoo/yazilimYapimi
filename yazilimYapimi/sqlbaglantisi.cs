@@ -11,7 +11,7 @@ namespace yazilimYapimi
     {
         public SqlConnection baglanti()
         {
-            SqlConnection baglan = new SqlConnection("Data Source=DESKTOP-NF98FID\\SQLEXPRESS;Initial Catalog=232802076_YazilimYapimi;Integrated Security=True;");
+            SqlConnection baglan = new SqlConnection("Data Source=CELIK\\SQLEXPRESS;Initial Catalog=232802076_YazilimYapimi;Integrated Security=True;");
             baglan.Open();
             return baglan;
         }

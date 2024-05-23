@@ -45,6 +45,7 @@
             // 
             btnKelimeEkle.BackColor = Color.FromArgb(220, 242, 241);
             btnKelimeEkle.BackgroundImageLayout = ImageLayout.None;
+            btnKelimeEkle.FlatAppearance.BorderSize = 0;
             btnKelimeEkle.FlatStyle = FlatStyle.Flat;
             btnKelimeEkle.Font = new Font("Nirmala UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnKelimeEkle.Image = (Image)resources.GetObject("btnKelimeEkle.Image");
@@ -56,10 +57,12 @@
             btnKelimeEkle.Text = "KELIME EKLE";
             btnKelimeEkle.TextImageRelation = TextImageRelation.ImageBeforeText;
             btnKelimeEkle.UseVisualStyleBackColor = false;
+            btnKelimeEkle.Click += btnKelimeEkle_Click;
             // 
             // btnKelimelerim
             // 
             btnKelimelerim.BackColor = Color.FromArgb(220, 242, 241);
+            btnKelimelerim.FlatAppearance.BorderSize = 0;
             btnKelimelerim.FlatStyle = FlatStyle.Flat;
             btnKelimelerim.Font = new Font("Nirmala UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnKelimelerim.Image = (Image)resources.GetObject("btnKelimelerim.Image");
@@ -75,6 +78,7 @@
             // btnSinavOl
             // 
             btnSinavOl.BackColor = Color.FromArgb(220, 242, 241);
+            btnSinavOl.FlatAppearance.BorderSize = 0;
             btnSinavOl.FlatStyle = FlatStyle.Flat;
             btnSinavOl.Font = new Font("Nirmala UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnSinavOl.Image = (Image)resources.GetObject("btnSinavOl.Image");
@@ -90,6 +94,7 @@
             // btnAyarlar
             // 
             btnAyarlar.BackColor = Color.FromArgb(220, 242, 241);
+            btnAyarlar.FlatAppearance.BorderSize = 0;
             btnAyarlar.FlatStyle = FlatStyle.Flat;
             btnAyarlar.Font = new Font("Nirmala UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnAyarlar.Image = (Image)resources.GetObject("btnAyarlar.Image");
@@ -105,11 +110,11 @@
             // lblKullaniciAdi
             // 
             lblKullaniciAdi.AutoSize = true;
-            lblKullaniciAdi.Font = new Font("Nirmala UI", 9F);
+            lblKullaniciAdi.Font = new Font("Segoe Print", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblKullaniciAdi.ForeColor = Color.FromArgb(220, 242, 241);
-            lblKullaniciAdi.Location = new Point(47, 36);
+            lblKullaniciAdi.Location = new Point(47, 72);
             lblKullaniciAdi.Name = "lblKullaniciAdi";
-            lblKullaniciAdi.Size = new Size(73, 15);
+            lblKullaniciAdi.Size = new Size(84, 21);
             lblKullaniciAdi.TabIndex = 4;
             lblKullaniciAdi.Text = "Kullanıcı Adı";
             // 
@@ -118,7 +123,7 @@
             lblAktifKullaniciAdi.AutoSize = true;
             lblAktifKullaniciAdi.Font = new Font("Nirmala UI", 9F);
             lblAktifKullaniciAdi.ForeColor = Color.FromArgb(220, 242, 241);
-            lblAktifKullaniciAdi.Location = new Point(47, 51);
+            lblAktifKullaniciAdi.Location = new Point(47, 93);
             lblAktifKullaniciAdi.Name = "lblAktifKullaniciAdi";
             lblAktifKullaniciAdi.Size = new Size(48, 15);
             lblAktifKullaniciAdi.TabIndex = 5;
@@ -129,7 +134,7 @@
             lblAktifAdSoyad.AutoSize = true;
             lblAktifAdSoyad.Font = new Font("Nirmala UI", 9F);
             lblAktifAdSoyad.ForeColor = Color.FromArgb(220, 242, 241);
-            lblAktifAdSoyad.Location = new Point(47, 93);
+            lblAktifAdSoyad.Location = new Point(47, 57);
             lblAktifAdSoyad.Name = "lblAktifAdSoyad";
             lblAktifAdSoyad.Size = new Size(48, 15);
             lblAktifAdSoyad.TabIndex = 7;
@@ -139,11 +144,11 @@
             // lblAdSoyad
             // 
             lblAdSoyad.AutoSize = true;
-            lblAdSoyad.Font = new Font("Nirmala UI", 9F);
+            lblAdSoyad.Font = new Font("Segoe Print", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblAdSoyad.ForeColor = Color.FromArgb(220, 242, 241);
-            lblAdSoyad.Location = new Point(47, 78);
+            lblAdSoyad.Location = new Point(47, 36);
             lblAdSoyad.Name = "lblAdSoyad";
-            lblAdSoyad.Size = new Size(57, 15);
+            lblAdSoyad.Size = new Size(69, 21);
             lblAdSoyad.TabIndex = 6;
             lblAdSoyad.Text = "Ad Soyad";
             // 

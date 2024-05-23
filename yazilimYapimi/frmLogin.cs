@@ -4,6 +4,7 @@ namespace yazilimYapimi
 {
     public partial class frmLogin : Form
     {
+        public static string nickname;
         public frmLogin()
         {
             InitializeComponent();
@@ -53,6 +54,7 @@ namespace yazilimYapimi
             komut.Parameters.AddWithValue("@p1", txtKullaniciAdi.Text);
             komut.Parameters.AddWithValue("@p2", txtSifre.Text);
             SqlDataReader dr = komut.ExecuteReader();
+            nickname = txtKullaniciAdi.Text;
             if (dr.Read())
             {
                 frmHomePage hp = new frmHomePage();
