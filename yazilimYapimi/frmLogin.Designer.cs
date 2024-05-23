@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmLogin));
-            backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             pictureBoxLogo = new PictureBox();
             lblSifreUnuttum = new Label();
             checkSifreGoster = new CheckBox();
@@ -40,6 +39,7 @@
             lblKullaniciAdi = new Label();
             txtSifre = new TextBox();
             txtKullaniciAdi = new TextBox();
+            backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             ((System.ComponentModel.ISupportInitialize)pictureBoxLogo).BeginInit();
             SuspendLayout();
             // 
@@ -126,6 +126,7 @@
             btnGirisYap.TabIndex = 2;
             btnGirisYap.Text = "GIRIS YAP";
             btnGirisYap.UseVisualStyleBackColor = false;
+            btnGirisYap.Click += btnGirisYap_Click;
             // 
             // lblSifre
             // 
@@ -205,7 +206,6 @@
         }
 
         #endregion
-        private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private PictureBox pictureBoxLogo;
         private Label lblSifreUnuttum;
         private CheckBox checkSifreGoster;
@@ -216,5 +216,6 @@
         private Label lblKullaniciAdi;
         private TextBox txtSifre;
         private TextBox txtKullaniciAdi;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
     }
 }

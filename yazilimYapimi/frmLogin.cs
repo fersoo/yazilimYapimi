@@ -1,4 +1,6 @@
-﻿namespace yazilimYapimi
+﻿using System.Data.SqlClient;
+
+namespace yazilimYapimi
 {
     public partial class frmLogin : Form
     {
@@ -7,6 +9,7 @@
             InitializeComponent();
         }
 
+        sqlbaglantisi bgl = new sqlbaglantisi();
         private void frmLogin_Load(object sender, EventArgs e)
         {
             txtKullaniciAdi.Focus();
@@ -42,6 +45,24 @@
             frmForgotPassword ffp = new frmForgotPassword();
             ffp.Show();
             this.Hide();
+        }
+
+        private void btnGirisYap_Click(object sender, EventArgs e)
+        {
+            SqlCommand komut = new SqlCommand("SELECT * FROM TBL_USER WHERE userNickname=@p1 and userPassword=@p2",bgl.baglanti());
+            komut.Parameters.AddWithValue("@p1", txtKullaniciAdi.Text);
+            komut.Parameters.AddWithValue("@p2", txtSifre.Text);
+            SqlDataReader dr = komut.ExecuteReader();
+            if (dr.Read())
+            {
+                frmHomePage hp = new frmHomePage();
+                hp.Show();
+                this.Hide();
+            }
+            else
+                MessageBox.Show("Hatalı giriş yaptınız.","HATA", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+            bgl.baglanti().Close();
         }
     }
 }

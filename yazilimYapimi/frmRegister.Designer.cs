@@ -55,7 +55,7 @@
             lblGirisYap.Cursor = Cursors.Hand;
             lblGirisYap.Font = new Font("Nirmala UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblGirisYap.ForeColor = Color.FromArgb(220, 242, 241);
-            lblGirisYap.Location = new Point(148, 729);
+            lblGirisYap.Location = new Point(163, 735);
             lblGirisYap.Name = "lblGirisYap";
             lblGirisYap.Size = new Size(50, 13);
             lblGirisYap.TabIndex = 32;
@@ -101,7 +101,7 @@
             lblHesapVarMi.AutoSize = true;
             lblHesapVarMi.Font = new Font("Nirmala UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblHesapVarMi.ForeColor = Color.FromArgb(220, 242, 241);
-            lblHesapVarMi.Location = new Point(129, 713);
+            lblHesapVarMi.Location = new Point(129, 719);
             lblHesapVarMi.Name = "lblHesapVarMi";
             lblHesapVarMi.Size = new Size(118, 13);
             lblHesapVarMi.TabIndex = 28;
@@ -147,7 +147,7 @@
             btnTemizle.Location = new Point(80, 666);
             btnTemizle.Name = "btnTemizle";
             btnTemizle.Size = new Size(216, 37);
-            btnTemizle.TabIndex = 4;
+            btnTemizle.TabIndex = 6;
             btnTemizle.Text = "TEMIZLE";
             btnTemizle.UseVisualStyleBackColor = false;
             btnTemizle.Click += btnTemizle_Click;
@@ -162,9 +162,10 @@
             btnKayitOl.Location = new Point(80, 623);
             btnKayitOl.Name = "btnKayitOl";
             btnKayitOl.Size = new Size(216, 37);
-            btnKayitOl.TabIndex = 3;
+            btnKayitOl.TabIndex = 5;
             btnKayitOl.Text = "KAYIT OL";
             btnKayitOl.UseVisualStyleBackColor = false;
+            btnKayitOl.Click += btnKayitOl_Click;
             // 
             // lblSifre
             // 
@@ -198,7 +199,7 @@
             txtSifre.Name = "txtSifre";
             txtSifre.PasswordChar = '●';
             txtSifre.Size = new Size(216, 28);
-            txtSifre.TabIndex = 2;
+            txtSifre.TabIndex = 4;
             // 
             // txtKullaniciAd
             // 
@@ -209,7 +210,7 @@
             txtKullaniciAd.Multiline = true;
             txtKullaniciAd.Name = "txtKullaniciAd";
             txtKullaniciAd.Size = new Size(216, 28);
-            txtKullaniciAd.TabIndex = 1;
+            txtKullaniciAd.TabIndex = 3;
             // 
             // lblAd
             // 
@@ -231,7 +232,7 @@
             txtisim.Multiline = true;
             txtisim.Name = "txtisim";
             txtisim.Size = new Size(216, 28);
-            txtisim.TabIndex = 33;
+            txtisim.TabIndex = 1;
             // 
             // lblSoyad
             // 
@@ -253,7 +254,7 @@
             txtSoyisim.Multiline = true;
             txtSoyisim.Name = "txtSoyisim";
             txtSoyisim.Size = new Size(216, 28);
-            txtSoyisim.TabIndex = 35;
+            txtSoyisim.TabIndex = 2;
             // 
             // frmRegister
             // 
