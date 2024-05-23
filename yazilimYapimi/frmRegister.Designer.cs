@@ -42,9 +42,9 @@
             lblKullaniciAd = new Label();
             txtSifre = new TextBox();
             txtKullaniciAd = new TextBox();
-            lblisim = new Label();
+            lblAd = new Label();
             txtisim = new TextBox();
-            lblSoyisim = new Label();
+            lblSoyad = new Label();
             txtSoyisim = new TextBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
@@ -67,7 +67,7 @@
             lblMail.AutoSize = true;
             lblMail.Font = new Font("Segoe Print", 12F, FontStyle.Regular, GraphicsUnit.Point, 162);
             lblMail.ForeColor = Color.FromArgb(220, 242, 241);
-            lblMail.Location = new Point(122, 206);
+            lblMail.Location = new Point(137, 206);
             lblMail.Name = "lblMail";
             lblMail.Size = new Size(103, 28);
             lblMail.TabIndex = 31;
@@ -78,7 +78,7 @@
             txtMail.BackColor = Color.FromArgb(230, 231, 233);
             txtMail.BorderStyle = BorderStyle.None;
             txtMail.Font = new Font("Nirmala UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            txtMail.Location = new Point(65, 237);
+            txtMail.Location = new Point(80, 237);
             txtMail.Multiline = true;
             txtMail.Name = "txtMail";
             txtMail.Size = new Size(216, 28);
@@ -89,7 +89,7 @@
             // 
             pictureBox2.BackColor = Color.FromArgb(54, 84, 134);
             pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(122, 40);
+            pictureBox2.Location = new Point(137, 40);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(105, 79);
             pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
@@ -101,7 +101,7 @@
             lblHesapVarMi.AutoSize = true;
             lblHesapVarMi.Font = new Font("Nirmala UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblHesapVarMi.ForeColor = Color.FromArgb(220, 242, 241);
-            lblHesapVarMi.Location = new Point(114, 713);
+            lblHesapVarMi.Location = new Point(129, 713);
             lblHesapVarMi.Name = "lblHesapVarMi";
             lblHesapVarMi.Size = new Size(118, 13);
             lblHesapVarMi.TabIndex = 28;
@@ -116,7 +116,7 @@
             checkSifreGoster.FlatAppearance.BorderSize = 0;
             checkSifreGoster.FlatStyle = FlatStyle.Flat;
             checkSifreGoster.ForeColor = Color.FromArgb(54, 84, 134);
-            checkSifreGoster.Location = new Point(287, 526);
+            checkSifreGoster.Location = new Point(302, 526);
             checkSifreGoster.Name = "checkSifreGoster";
             checkSifreGoster.Size = new Size(30, 28);
             checkSifreGoster.TabIndex = 27;
@@ -131,7 +131,7 @@
             lblBaslayalim.FlatStyle = FlatStyle.Flat;
             lblBaslayalim.Font = new Font("Segoe Print", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblBaslayalim.ForeColor = Color.FromArgb(220, 242, 241);
-            lblBaslayalim.Location = new Point(46, 122);
+            lblBaslayalim.Location = new Point(61, 122);
             lblBaslayalim.Name = "lblBaslayalim";
             lblBaslayalim.Size = new Size(257, 47);
             lblBaslayalim.TabIndex = 26;
@@ -144,7 +144,7 @@
             btnTemizle.FlatStyle = FlatStyle.Flat;
             btnTemizle.Font = new Font("Nirmala UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnTemizle.ForeColor = SystemColors.ButtonFace;
-            btnTemizle.Location = new Point(65, 666);
+            btnTemizle.Location = new Point(80, 666);
             btnTemizle.Name = "btnTemizle";
             btnTemizle.Size = new Size(216, 37);
             btnTemizle.TabIndex = 4;
@@ -159,7 +159,7 @@
             btnKayitOl.FlatAppearance.BorderSize = 0;
             btnKayitOl.FlatStyle = FlatStyle.Flat;
             btnKayitOl.Font = new Font("Nirmala UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnKayitOl.Location = new Point(65, 623);
+            btnKayitOl.Location = new Point(80, 623);
             btnKayitOl.Name = "btnKayitOl";
             btnKayitOl.Size = new Size(216, 37);
             btnKayitOl.TabIndex = 3;
@@ -171,7 +171,7 @@
             lblSifre.AutoSize = true;
             lblSifre.Font = new Font("Segoe Print", 12F, FontStyle.Regular, GraphicsUnit.Point, 162);
             lblSifre.ForeColor = Color.FromArgb(220, 242, 241);
-            lblSifre.Location = new Point(149, 495);
+            lblSifre.Location = new Point(164, 495);
             lblSifre.Name = "lblSifre";
             lblSifre.Size = new Size(49, 28);
             lblSifre.TabIndex = 23;
@@ -182,7 +182,7 @@
             lblKullaniciAd.AutoSize = true;
             lblKullaniciAd.Font = new Font("Segoe Print", 12F, FontStyle.Regular, GraphicsUnit.Point, 162);
             lblKullaniciAd.ForeColor = Color.FromArgb(220, 242, 241);
-            lblKullaniciAd.Location = new Point(115, 424);
+            lblKullaniciAd.Location = new Point(130, 424);
             lblKullaniciAd.Name = "lblKullaniciAd";
             lblKullaniciAd.Size = new Size(116, 28);
             lblKullaniciAd.TabIndex = 22;
@@ -193,7 +193,7 @@
             txtSifre.BackColor = Color.FromArgb(230, 231, 233);
             txtSifre.BorderStyle = BorderStyle.None;
             txtSifre.Font = new Font("Nirmala UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            txtSifre.Location = new Point(65, 526);
+            txtSifre.Location = new Point(80, 526);
             txtSifre.Multiline = true;
             txtSifre.Name = "txtSifre";
             txtSifre.PasswordChar = '●';
@@ -205,51 +205,51 @@
             txtKullaniciAd.BackColor = Color.FromArgb(230, 231, 233);
             txtKullaniciAd.BorderStyle = BorderStyle.None;
             txtKullaniciAd.Font = new Font("Nirmala UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            txtKullaniciAd.Location = new Point(65, 455);
+            txtKullaniciAd.Location = new Point(80, 455);
             txtKullaniciAd.Multiline = true;
             txtKullaniciAd.Name = "txtKullaniciAd";
             txtKullaniciAd.Size = new Size(216, 28);
             txtKullaniciAd.TabIndex = 1;
             // 
-            // lblisim
+            // lblAd
             // 
-            lblisim.AutoSize = true;
-            lblisim.Font = new Font("Segoe Print", 12F, FontStyle.Regular, GraphicsUnit.Point, 162);
-            lblisim.ForeColor = Color.FromArgb(220, 242, 241);
-            lblisim.Location = new Point(148, 277);
-            lblisim.Name = "lblisim";
-            lblisim.Size = new Size(45, 28);
-            lblisim.TabIndex = 34;
-            lblisim.Text = "isim";
+            lblAd.AutoSize = true;
+            lblAd.Font = new Font("Segoe Print", 12F, FontStyle.Regular, GraphicsUnit.Point, 162);
+            lblAd.ForeColor = Color.FromArgb(220, 242, 241);
+            lblAd.Location = new Point(171, 278);
+            lblAd.Name = "lblAd";
+            lblAd.Size = new Size(35, 28);
+            lblAd.TabIndex = 34;
+            lblAd.Text = "Ad";
             // 
             // txtisim
             // 
             txtisim.BackColor = Color.FromArgb(230, 231, 233);
             txtisim.BorderStyle = BorderStyle.None;
             txtisim.Font = new Font("Nirmala UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            txtisim.Location = new Point(65, 308);
+            txtisim.Location = new Point(80, 309);
             txtisim.Multiline = true;
             txtisim.Name = "txtisim";
             txtisim.Size = new Size(216, 28);
             txtisim.TabIndex = 33;
             // 
-            // lblSoyisim
+            // lblSoyad
             // 
-            lblSoyisim.AutoSize = true;
-            lblSoyisim.Font = new Font("Segoe Print", 12F, FontStyle.Regular, GraphicsUnit.Point, 162);
-            lblSoyisim.ForeColor = Color.FromArgb(220, 242, 241);
-            lblSoyisim.Location = new Point(137, 351);
-            lblSoyisim.Name = "lblSoyisim";
-            lblSoyisim.Size = new Size(73, 28);
-            lblSoyisim.TabIndex = 36;
-            lblSoyisim.Text = "Soyisim";
+            lblSoyad.AutoSize = true;
+            lblSoyad.Font = new Font("Segoe Print", 12F, FontStyle.Regular, GraphicsUnit.Point, 162);
+            lblSoyad.ForeColor = Color.FromArgb(220, 242, 241);
+            lblSoyad.Location = new Point(158, 350);
+            lblSoyad.Name = "lblSoyad";
+            lblSoyad.Size = new Size(60, 28);
+            lblSoyad.TabIndex = 36;
+            lblSoyad.Text = "Soyad";
             // 
             // txtSoyisim
             // 
             txtSoyisim.BackColor = Color.FromArgb(230, 231, 233);
             txtSoyisim.BorderStyle = BorderStyle.None;
             txtSoyisim.Font = new Font("Nirmala UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            txtSoyisim.Location = new Point(65, 382);
+            txtSoyisim.Location = new Point(80, 381);
             txtSoyisim.Multiline = true;
             txtSoyisim.Name = "txtSoyisim";
             txtSoyisim.Size = new Size(216, 28);
@@ -263,10 +263,10 @@
             AutoSizeMode = AutoSizeMode.GrowAndShrink;
             BackColor = Color.FromArgb(54, 84, 134);
             CancelButton = btnTemizle;
-            ClientSize = new Size(352, 801);
-            Controls.Add(lblSoyisim);
+            ClientSize = new Size(387, 801);
+            Controls.Add(lblSoyad);
             Controls.Add(txtSoyisim);
-            Controls.Add(lblisim);
+            Controls.Add(lblAd);
             Controls.Add(txtisim);
             Controls.Add(lblGirisYap);
             Controls.Add(lblMail);
@@ -306,9 +306,9 @@
         private Label lblKullaniciAd;
         private TextBox txtSifre;
         private TextBox txtKullaniciAd;
-        private Label lblisim;
+        private Label lblAd;
         private TextBox txtisim;
-        private Label lblSoyisim;
+        private Label lblSoyad;
         private TextBox txtSoyisim;
     }
 }

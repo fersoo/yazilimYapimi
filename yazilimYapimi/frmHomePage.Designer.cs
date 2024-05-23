@@ -34,9 +34,9 @@
             btnSinavOl = new Button();
             btnAyarlar = new Button();
             lblKullaniciAdi = new Label();
-            lblAktifKullanici = new Label();
-            label1 = new Label();
-            lblisim = new Label();
+            lblAktifKullaniciAdi = new Label();
+            lblAktifAdSoyad = new Label();
+            lblAdSoyad = new Label();
             pictureBox2 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
@@ -49,7 +49,7 @@
             btnKelimeEkle.Font = new Font("Nirmala UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnKelimeEkle.Image = (Image)resources.GetObject("btnKelimeEkle.Image");
             btnKelimeEkle.ImageAlign = ContentAlignment.MiddleRight;
-            btnKelimeEkle.Location = new Point(47, 162);
+            btnKelimeEkle.Location = new Point(47, 180);
             btnKelimeEkle.Name = "btnKelimeEkle";
             btnKelimeEkle.Size = new Size(256, 44);
             btnKelimeEkle.TabIndex = 0;
@@ -64,7 +64,7 @@
             btnKelimelerim.Font = new Font("Nirmala UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnKelimelerim.Image = (Image)resources.GetObject("btnKelimelerim.Image");
             btnKelimelerim.ImageAlign = ContentAlignment.MiddleRight;
-            btnKelimelerim.Location = new Point(47, 212);
+            btnKelimelerim.Location = new Point(47, 230);
             btnKelimelerim.Name = "btnKelimelerim";
             btnKelimelerim.Size = new Size(256, 44);
             btnKelimelerim.TabIndex = 1;
@@ -79,7 +79,7 @@
             btnSinavOl.Font = new Font("Nirmala UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnSinavOl.Image = (Image)resources.GetObject("btnSinavOl.Image");
             btnSinavOl.ImageAlign = ContentAlignment.MiddleRight;
-            btnSinavOl.Location = new Point(47, 262);
+            btnSinavOl.Location = new Point(47, 280);
             btnSinavOl.Name = "btnSinavOl";
             btnSinavOl.Size = new Size(256, 44);
             btnSinavOl.TabIndex = 2;
@@ -94,7 +94,7 @@
             btnAyarlar.Font = new Font("Nirmala UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnAyarlar.Image = (Image)resources.GetObject("btnAyarlar.Image");
             btnAyarlar.ImageAlign = ContentAlignment.MiddleRight;
-            btnAyarlar.Location = new Point(47, 312);
+            btnAyarlar.Location = new Point(47, 330);
             btnAyarlar.Name = "btnAyarlar";
             btnAyarlar.Size = new Size(256, 44);
             btnAyarlar.TabIndex = 3;
@@ -107,51 +107,51 @@
             lblKullaniciAdi.AutoSize = true;
             lblKullaniciAdi.Font = new Font("Nirmala UI", 9F);
             lblKullaniciAdi.ForeColor = Color.FromArgb(220, 242, 241);
-            lblKullaniciAdi.Location = new Point(47, 74);
+            lblKullaniciAdi.Location = new Point(47, 36);
             lblKullaniciAdi.Name = "lblKullaniciAdi";
             lblKullaniciAdi.Size = new Size(73, 15);
             lblKullaniciAdi.TabIndex = 4;
             lblKullaniciAdi.Text = "Kullanıcı Adı";
             // 
-            // lblAktifKullanici
+            // lblAktifKullaniciAdi
             // 
-            lblAktifKullanici.AutoSize = true;
-            lblAktifKullanici.Font = new Font("Nirmala UI", 9F);
-            lblAktifKullanici.ForeColor = Color.FromArgb(220, 242, 241);
-            lblAktifKullanici.Location = new Point(59, 89);
-            lblAktifKullanici.Name = "lblAktifKullanici";
-            lblAktifKullanici.Size = new Size(48, 15);
-            lblAktifKullanici.TabIndex = 5;
-            lblAktifKullanici.Text = "örnektir";
+            lblAktifKullaniciAdi.AutoSize = true;
+            lblAktifKullaniciAdi.Font = new Font("Nirmala UI", 9F);
+            lblAktifKullaniciAdi.ForeColor = Color.FromArgb(220, 242, 241);
+            lblAktifKullaniciAdi.Location = new Point(47, 51);
+            lblAktifKullaniciAdi.Name = "lblAktifKullaniciAdi";
+            lblAktifKullaniciAdi.Size = new Size(48, 15);
+            lblAktifKullaniciAdi.TabIndex = 5;
+            lblAktifKullaniciAdi.Text = "örnektir";
             // 
-            // label1
+            // lblAktifAdSoyad
             // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Nirmala UI", 9F);
-            label1.ForeColor = Color.FromArgb(220, 242, 241);
-            label1.Location = new Point(59, 40);
-            label1.Name = "label1";
-            label1.Size = new Size(48, 15);
-            label1.TabIndex = 7;
-            label1.Text = "örnektir";
-            label1.Click += label1_Click;
+            lblAktifAdSoyad.AutoSize = true;
+            lblAktifAdSoyad.Font = new Font("Nirmala UI", 9F);
+            lblAktifAdSoyad.ForeColor = Color.FromArgb(220, 242, 241);
+            lblAktifAdSoyad.Location = new Point(47, 93);
+            lblAktifAdSoyad.Name = "lblAktifAdSoyad";
+            lblAktifAdSoyad.Size = new Size(48, 15);
+            lblAktifAdSoyad.TabIndex = 7;
+            lblAktifAdSoyad.Text = "örnektir";
+            lblAktifAdSoyad.Click += label1_Click;
             // 
-            // lblisim
+            // lblAdSoyad
             // 
-            lblisim.AutoSize = true;
-            lblisim.Font = new Font("Nirmala UI", 9F);
-            lblisim.ForeColor = Color.FromArgb(220, 242, 241);
-            lblisim.Location = new Point(47, 25);
-            lblisim.Name = "lblisim";
-            lblisim.Size = new Size(73, 15);
-            lblisim.TabIndex = 6;
-            lblisim.Text = "İsim Soyisim";
+            lblAdSoyad.AutoSize = true;
+            lblAdSoyad.Font = new Font("Nirmala UI", 9F);
+            lblAdSoyad.ForeColor = Color.FromArgb(220, 242, 241);
+            lblAdSoyad.Location = new Point(47, 78);
+            lblAdSoyad.Name = "lblAdSoyad";
+            lblAdSoyad.Size = new Size(57, 15);
+            lblAdSoyad.TabIndex = 6;
+            lblAdSoyad.Text = "Ad Soyad";
             // 
             // pictureBox2
             // 
             pictureBox2.BackColor = Color.FromArgb(54, 84, 134);
             pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(198, 25);
+            pictureBox2.Location = new Point(198, 36);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(105, 79);
             pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
@@ -164,11 +164,11 @@
             AutoScaleMode = AutoScaleMode.Font;
             AutoSizeMode = AutoSizeMode.GrowAndShrink;
             BackColor = Color.FromArgb(54, 84, 134);
-            ClientSize = new Size(352, 426);
+            ClientSize = new Size(352, 423);
             Controls.Add(pictureBox2);
-            Controls.Add(label1);
-            Controls.Add(lblisim);
-            Controls.Add(lblAktifKullanici);
+            Controls.Add(lblAktifAdSoyad);
+            Controls.Add(lblAdSoyad);
+            Controls.Add(lblAktifKullaniciAdi);
             Controls.Add(lblKullaniciAdi);
             Controls.Add(btnAyarlar);
             Controls.Add(btnSinavOl);
@@ -193,9 +193,9 @@
         private Button btnSinavOl;
         private Button btnAyarlar;
         private Label lblKullaniciAdi;
-        private Label lblAktifKullanici;
-        private Label label1;
-        private Label lblisim;
+        private Label lblAktifKullaniciAdi;
+        private Label lblAktifAdSoyad;
+        private Label lblAdSoyad;
         private PictureBox pictureBox2;
     }
 }
