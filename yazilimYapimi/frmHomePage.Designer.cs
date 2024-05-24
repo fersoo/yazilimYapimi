@@ -45,6 +45,7 @@
             // 
             btnKelimeEkle.BackColor = Color.FromArgb(220, 242, 241);
             btnKelimeEkle.BackgroundImageLayout = ImageLayout.None;
+            btnKelimeEkle.Cursor = Cursors.Hand;
             btnKelimeEkle.FlatAppearance.BorderSize = 0;
             btnKelimeEkle.FlatStyle = FlatStyle.Flat;
             btnKelimeEkle.Font = new Font("Nirmala UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
@@ -62,6 +63,8 @@
             // btnKelimelerim
             // 
             btnKelimelerim.BackColor = Color.FromArgb(220, 242, 241);
+            btnKelimelerim.BackgroundImageLayout = ImageLayout.None;
+            btnKelimelerim.Cursor = Cursors.Hand;
             btnKelimelerim.FlatAppearance.BorderSize = 0;
             btnKelimelerim.FlatStyle = FlatStyle.Flat;
             btnKelimelerim.Font = new Font("Nirmala UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
@@ -78,6 +81,7 @@
             // btnSinavOl
             // 
             btnSinavOl.BackColor = Color.FromArgb(220, 242, 241);
+            btnSinavOl.Cursor = Cursors.Hand;
             btnSinavOl.FlatAppearance.BorderSize = 0;
             btnSinavOl.FlatStyle = FlatStyle.Flat;
             btnSinavOl.Font = new Font("Nirmala UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
@@ -94,6 +98,7 @@
             // btnAyarlar
             // 
             btnAyarlar.BackColor = Color.FromArgb(220, 242, 241);
+            btnAyarlar.Cursor = Cursors.Hand;
             btnAyarlar.FlatAppearance.BorderSize = 0;
             btnAyarlar.FlatStyle = FlatStyle.Flat;
             btnAyarlar.Font = new Font("Nirmala UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
@@ -112,22 +117,24 @@
             lblKullaniciAdi.AutoSize = true;
             lblKullaniciAdi.Font = new Font("Segoe Print", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblKullaniciAdi.ForeColor = Color.FromArgb(220, 242, 241);
-            lblKullaniciAdi.Location = new Point(47, 72);
+            lblKullaniciAdi.Location = new Point(47, 82);
             lblKullaniciAdi.Name = "lblKullaniciAdi";
             lblKullaniciAdi.Size = new Size(84, 21);
             lblKullaniciAdi.TabIndex = 4;
             lblKullaniciAdi.Text = "Kullanıcı Adı";
+            lblKullaniciAdi.Click += lblKullaniciAdi_Click;
             // 
             // lblAktifKullaniciAdi
             // 
             lblAktifKullaniciAdi.AutoSize = true;
             lblAktifKullaniciAdi.Font = new Font("Nirmala UI", 9F);
             lblAktifKullaniciAdi.ForeColor = Color.FromArgb(220, 242, 241);
-            lblAktifKullaniciAdi.Location = new Point(47, 93);
+            lblAktifKullaniciAdi.Location = new Point(47, 103);
             lblAktifKullaniciAdi.Name = "lblAktifKullaniciAdi";
             lblAktifKullaniciAdi.Size = new Size(48, 15);
             lblAktifKullaniciAdi.TabIndex = 5;
             lblAktifKullaniciAdi.Text = "örnektir";
+//            lblAktifKullaniciAdi.Click += this.lblAktifKullaniciAdi_Click;
             // 
             // lblAktifAdSoyad
             // 

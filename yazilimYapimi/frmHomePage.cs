@@ -39,6 +39,12 @@ namespace yazilimYapimi
 
         private void btnKelimeEkle_Click(object sender, EventArgs e)
         {
+            frmAddWord add = new frmAddWord();
+            add.Show();
+        }
+
+        private void lblKullaniciAdi_Click(object sender, EventArgs e)
+        {
 
         }
     }
